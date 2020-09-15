@@ -1,0 +1,8 @@
+x = pd.ExcelFile('Energy+Indicators.xls')
+a = x.parse(skiprows=17,skip_footer=(38))
+a = a[['Unnamed: 1','Petajoules','Gigajoules','%']]
+a.columns = ['Country', 'Energy Supply', 'Energy Supply per Capita', '% Renewable']
+a[['Energy Supply', 'Energy Supply per Capita', '% Renewable']] =  a[['Energy Supply', 'Energy Supply per Capita', '% Renewable']].replace('...',np.NaN).apply(pd.to_numeric)
+a['Energy Supply'] = a['Energy Supply']*1000000
+a['Country'] = a['Country'].replace({'China, Hong Kong Special Administrative Region':'Hong Kong','United Kingdom of Great Britain and Northern Ireland':'United Kingdom','Republic of Korea':'South Korea','United States of America':'United States','Iran (Islamic Republic of)':'Iran'})
+a['Country'] = a['Country'].str.replace(r" \(.*\)","")

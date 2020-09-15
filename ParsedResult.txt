@@ -1,0 +1,643 @@
+
+A unique feature of colloid particles and biopolymers is the molecule's intrinsic rigidity charac-
+terized by a molecular-level length scale. Under extreme confinement conditions at cellular scales
+or in nano-devices, these molecules can display orientational ordering accompanied by severe den-
+sity depletion. Conventional liquid-crystal theories, such as the Oseen-Frank or Landau-de Gennes
+theories, cannot capture the essential molecular-level properties: the boundary effects which extend
+to a distance of the rigidity length scale, and the drastic variations of the inhomogeneous molec-
+Illar density. Here we show, based on a simple interpretation of the Onsager model, that rodlike
+molecules in extreme annular confinement produce unusual liquid-crystal defect structures that are
+independent phases from the patterns usually seen in a weaker confinement environment.
+Introduction.— The fluid formed by rodlike molecules is
+a model system of liquid-crystals, which is often consid-
+ered in computer simulations. Closely related real sys-
+tems are micron-sized colloidal silica rods Ill or visible-
+range granular rods 12, 31 that display typical behavior
+of lyotropic liquid crystals: formation of a nematic state
+when the particle density is sufficiently high and exhibi-
+tion of defect patterns when the orientationally ordered
+system is confined in a finite space. A prominent feature
+of biopolymers and colloid particles is the molecule's in-
+trinsic rigidity characterized by a molecular-level length
+scale. Recent experimental systems include aqueous sus-
+pensions of actin filaments [4] and linearly shaped viruses
+[5] confined in a microchamber. How does the finite ge-
+ometric confinement affect the orientational properties
+and local molecular densities of a liquid crystal made of
+molecules that have sizes competing with the confinement
+length scale?
+One might say that this question is already answered
+by the recent progress in liquid-crystal physics. The sub-
+ject of liquid-crystal defects caused by geometric frustra-
+tions has been one of the central focuses in the liquid-
+crystal research community in recent years. The de-
+fect morphologies appearing in single and double liquid-
+crystal emulsions [6, 71, liquid-crystal display cells [81, as
+well as confined semiflexible biomolecules [4, 5], are ex-
+cellent experimental examples. The molecular-level com-
+puter simulations produced defect patterns under vari-
+ous physical conditions [9—16] that furthered our under-
+standing of the nature of the defects. Most theoretical
+studies in this research area 115, 17—35] are based on
+the Oseen-Frank (OF) model or the Landau-de Gennes
+(LdG) model, where the nematic director field or the
+Q-tensor field 1361 are the main concerns, respectively.
+These coarse-grained models, in which the molecular in-
+dividuality is mostly ignored, are suitable for dealing with
+*Email: jeffchen@uwaterloo.ca
+liquid crystals made of small molecules.
+The case of liquid crystals under extreme confinement
+is outside the realm of the conventional OF or LdG mod-
+els, when the molecular size is comparable with the con-
+finement dimension. Here the nonlocal boundary effects
+can extend to a significant distance covering a several
+rigidity length scale. Such a key physical feature cannot
+be described by the OF and LdG theories, as they are
+models for local order parameters. An excellent example
+is rodlike molecules, each having length L, confined in
+the annular area formed by two concentric circles of radii
+RI and R,2, as illustrated in Fig. I. Recent experiment
+observations and computer simulations revealed molec-
+ular configurations that are unique to such finite-sized
+systems [141. The excluded-volume interaction between
+rods prefer mutually parallel alignment of rod axes. In
+an ideal bulk state without a boarder, this drives the
+molecules into the formation of a directionally-ordered
+but spatially-homogeneous nematic state at a sufficiently
+high particle density. The hard annular boundaries dis-
+rupt the uniform nematic order and produce defect states
+in the interior. Depending on the geometric ratios 112/ L
+and RI/R2, molecular configurations display multiple
+stable states, each characterized by particular rotational
+symmetries.
+Can we understand the stability of these states from a
+theoretical model? The OF model deals with a contin-
+uum, nematic director field and the LdG model a con-
+tinuum, Q-tensor field, in which two crucial mechanisms
+required for the current problem are lacking: a rod can-
+not cross any hard-wall boundaries, illustrated in Fig.
+I(b) and the density depletion caused by such a bound-
+ary condition (BC) produces an entropy cost to the free
+energy. Hence, we need another level of coarse-graining,
+a free-energy model that contains a continuum field vari-
+able and yet allows for specification of BCs at a molecular
+level.
+In 1949, Onsager proposed an idea for studying the
+orientational properties of rodlike molecules [371. The
+purpose of this Letter is two-fold: to demonstrate that
+
+****** Result for Image/Page 2 ******
+(a)
+20
+(c)
+15
+5
+0.2
+4
+(d)
+3
+(b)
+0.4
+0.6
+RI/R2
+C)
+0.8
+(0)
+2
+model treats the problem at a different level: the con-
+sideration is the molecular distribution density, not the
+continuum local nematic-director or the Q-tensor fields.
+When the numerical analysis is done, we show that a
+unique set of extreme-confinement states emerge, which
+are different from the defect states predicted from the
+conventional OF or LdG models.
+Theoretical approach.— Our focus is on the distribution
+density function pc(r, u) in a flat two-dimensional (2D)
+space. It characterizes the probability density of finding
+the centers-of-mass of rodlike molecules at a spatial po-
+sition specified by the vector r with the condition that
+the rods point at the direction specified by the unit vec-
+tor u. The normalization condition fdrfdupc(r, u)
+is assumed here where n is the total number of confined
+rodlike molecules in an area A. We follow Onsager's ap-
+proach 1371 to write the free energy of the system by using
+a Mayer expansion accurate to the second virial term 138],
+"F = pc(r, u) In [L2pc(r, u)]drdu
+(1)
++ pc(r, u)w(r, u; r' , u')pc (r' , u') drdudr'du' ,
+where 13 1/ kBT, with kB being the Boltzmann con-
+stant and T the temperature. The free energy includes
+two terms. The first term takes into account the transla-
+tional, density-depletion, and orientational entropies of
+a spatially inhomogeneous and orientationally ordered
+fluid of rodlike molecules. The second term describes
+the interaction between two rodlike molecules having the
+coordinates (r, u) and (r', u'), where the Mayer function
+—w exp(—ßv)—l , and v is the interaction potential en-
+ergy between the two rigid molecules. When the config-
+uration (r, u; r' u') makes two rods overlapping, v oo;
+otherwise, v
+0. On a 2D surface, the mathematical
+criterion for determining rod overlapping becomes sim-
+ple. The vectors r and u are represented by the variables
+(r, p) and O respectively [Fig.
+The reduced free energy [3F as a functional of the func-
+tion pc(r, u) needs to be minimized. The stationary so-
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+RI/R2
+FIG. 1: Rodlike molecules of length L confined in concentric
+annular circles of radii RI and R2. Illustrated in (a) and (b)
+are typical allowed (yellow) and disallowed (blue) configura-
+tions, realized in our theory. Shown in phase diagram (c) are
+two phase regimes which exist when R2/L I: a two-fold de-
+fect state (D2) and a uniform defect-free state (DO, divided
+by a phase boundary. Multiple states exist in the extreme con-
+finement region of R2/L 1 as illustrated in phase diagram
+(d), based on the numerical solution of the extended Onsager
+free energy for interacting, rodlike molecules. An overall num-
+ber density of rods, po 20/142, is assumed here, where po is
+the number of rods per unit area on a two-dimensional sur-
+face. The phase boundaries are determined by a comparison
+of the free energies. The color of the rods illustrated in (c)
+and (d) represents the angles that the rods make with respect
+to the horizontal axis, specified in the inset of (c).
+the extended version of the Onsager model fits into this
+requirement, and, to provide a quantitative analysis of
+the annular confinement problem. The extended Onsager
+lutions satisfy
+öpc(r, u)
+(2)
+In a spatially homogeneous system where pc(r, u)
+is ac-
+tually a function of u only, one can analytically show
+based on this requirement that the isotropic-nematic
+phase transition takes place when the 2D particle den-
+3T/(2L2) 139—11].
+sity po n/ A reaches a critical pt)
+For the current confined case where pc is a function of
+both r and u, we established a high-precision computa-
+tional procedure, required to solve the above condition
+and to calculate the free energy [42, 43].
+Boundary-driven phase separation.— Note that we im-
+plemented the steric hard-wall BCs, which forbid the ex-
+ample configurations illustrated in Fig. I (b), with no
+further assumptions of density function pc(r, u) at the
+
+****** Result for Image/Page 3 ******
+(a)
+(b)
+(c)
+0.8
+1.5
+2.1
+0
+2.1
+0
+4.0
+6.0
+ooooeo
+000000
+1.0
+1.5
+2.0
+2.0
+3.0
+4.0
+C C COO
+1.0
+.5
+2.0
+2.0
+2.5
+3.0
+cooooo
+coo
+o -1/2
+0 1/2
+FIG. 2: Defect structures under the extreme confinement
+condition. Three illustration methods are used, all based
+on the numerical solution of pc(r, u). The first row in each
+plot is a reconstructed, real-space illustration; the second
+row is the scalar orientational order parameter, calculated
+from the distribution function; the third row is the center-
+of-mass distribution function, after averaged over all orienta-
+tions. The first-order phase boundaries separating Dm from
+D'rn are represented by the change of the background shades:
+from white to light gray, where rn = 2, 3, and 4 in plots
+(a) (for RI/R„2 0.1), (b) (for RI/R„2 0.3), and (c) (for
+RI/R2 = 0.45), respectively. The color used in the first row
+of each plot has the same meaning as in the inset of Fig.
+I (c). The intensities of both A and are represented by the
+blue color bar. The light blue and green circles indicate the
+defect locations on Dm, of —1/2 and 1/2 winding numbers,
+respectively.
+boundaries. The BCs amounts to letting the density
+pc(r, u) vanish, when a rod, having coordinates (r, u),
+3
+overlaps with any part of the two concentric circles. This
+non-local interaction has a correlation length of order L,
+which cannot be ignored when RI, R2 and L become
+comparable. The second, nonlocal term in (I) connects
+the density function at different locations. After solv-
+ing the minimization condition in (2) for the entire
+space, we can then deduce the normalized density func-
+tion by averaging over all directions, and the Q(r)-
+tensor for any r. The eigenvalues and eigenvectors of the
+Q-tensor also yield the scalar orientational order param-
+eter A(r) and the main-axis nematic director n(r) [44].
+The numerical solution reveals the existence of two
+different types of defect states, Dm and D' , each dis-
+playing an m-fold rotational symmetry [Fig. 11, where
+m = 2, 3, 4, The extreme defect states D'm are char-
+acteristically identified to have the strong presence of
+self-aggregation of the center of mass [Fig. 21. Accom-
+panying the density depleted regions are weakly ordered
+rod segments, which can be compared with a much more
+clear signal of defect points in Dm. At a low R2/L ra-
+tio, the geometric frustrations due to the BCs reduce the
+available free space for the rodlike molecules and effec-
+tively drive up the excluded-volume effects; rich domains
+of rod centers with orientationally ordered configurations
+reduce the overall excluded volume effects, in the expense
+of unwanted reduction of the translational entropy in the
+polar-angle direction.
+In addition to these effects, at the inner and outer cir-
+cular boundaries, the configurational properties of D'
+significantly differ from those of D m. At r 112 and
+r RI, both A(r, p) and n(r, p) vary as functions of p
+and the variation becomes stronger as R,2/L decreases,
+under extreme confinement. In contrast, these boundary
+properties remain at almost constant values in Dm. In
+a typical treatment of the LdG theory for a confinement
+problem, is assumed to be a constant over the en-
+tire confined space; at the boundaries, A(r, p) is assumed
+to be a constant and n(r, p) to point at a constant an-
+gle from the boundary tangent direction. Indeed, a LdG
+theory can describe the T)2, Doo and spiral states [32, 331.
+Phase transitions.— The fact that D'm and Dm are dif-
+ferent defect phases can be assessed from the free-energy
+branches of these two types of states. Displayed on the
+left panel of Fig. 3 are the typical free energies of these
+states, where RI/R2 = 0.1 form 2 in plot (a), 0.3
+for m 3 in plot (b), and 0.45 for m 4 in plot (c).
+The plots clearly show how the D'rn and Dm
+branches
+cross each other at the transition points, as R2/L varies.
+These and other crossing points (not displayed in Fig.
+3) are used for the final determination of the first-order
+phase boundaries in the phase diagrams, Figs. I(c) and
+(d). Through the eigenvectors of the deduced Q-tensor
+at r R2, we calculate the nematic angle at the bound-
+ary. The variance of this angle, a , can be used as the
+order parameter for this transition, as displayed in Figs.
+3(d-f). The jumps at the transition points clearly indi-
+cate the strong variations of the nematic angles in the
+TY states.
+
+****** Result for Image/Page 4 ******
+6.5
+6.0
+5.5
+D'
+2
+-0.1
+DO 66
+6.5 R
+(b) RI 2=0.3
+6.0
+0.12
+0.08
+0.04
+0.10
+0.06
+0.02
+0.06
+0.04
+0.02
+D
+2
+3
+5.5 D '
+3
+2
+3
+(d) RI/R 2=0.1
+D
+2
+(e) RI/R 2=0.3
+3
+(f) RI/R 2=0.45
+6.5 g
+(c) RI /R 2=0.45
+6.0
+5.5 D
+4
+1.5
+6
+4
+2.0
+R2/L
+2.5
+1.5
+2.0
+R2/L
+FIG. 3: Phase transitions between D'm and Dm
+4
+For
+2.5
+each
+case of (a) m = 2, (b) m 3, and (c) m 4, two branches of
+the reduced free energy per rod, triangles for D'm and circles
+for Dm, are plotted in (a), (b), and (c). The variance of
+the nematic direction at r RD, , is used as the order
+parameter of the D'm-Dm transitions and displayed in (d),
+(e), and (f) for m = 2, m = 3, and m = 4, respectively.
+Jumps of (T can be seen at the transition points.
+In a continuous vector field, a winding number can be
+assigned to a field-defect point. As a general rule, the
+total sum of the winding numbers in a given geometry
+is always conservative [17, 45—471. One can argue, e.g.,
+that the annuler confinement amounts to a total winding
+number zero, and the circular confinement total winding
+number +1 1431. Indeed, the ideal annular Doo is a state
+without any defect. The continuous Dm states contain m
+pairs of defect points that can be assigned positive and
+negative winding numbers [see Fig. 2], and hence the to-
+tal winding number is still zero. The —1/2 defect points,
+labeled in Fig. 2 by the blue color, appear near the in-
+ner circle. As the ratio RI/R2 decreases, these —1/2
+defect points are attracted to the vicinity of the inner
+circle, which has an increasing curvature (another prop-
+erty of liquid crystal defect points 1451). This is consis-
+tent with the observation from Monte Carlo simulations
+1141. As RI/R,2 goes to zero, the annular confinement
+approaches the limit of a circular confinement of radius
+R2. The two —1/2 defect points in the D2 state dimin-
+ish together with the inner circle, leaving a total winding
+number m/ 2 +1 for m 2, expected for the circular
+confinement [42, 43]. This crossover requirement alone
+4
+establishes the fact that the low-RI/R2 Dm state must
+be D2, not other m.
+Although the density functions pc(r, u) of the extreme
+D' states are continuous, they vary drastically in both
+r- and u-variable spaces. This makes the orientational-
+configuration variation almost disruptive, as can be seen
+on the left panel of Fig. 2. As the result, significant
+regions of A = 0 appear in the order parameter profile,
+where the concept of defect points becomes irrelevant. In
+a recent theoretical study of a semiflexible polymer chain
+confined in a spherical cavity, a density depletion region
+is also found under the extreme confinement condition,
+when the confinement dimension has the same order of
+magnitude as the persistence length of the polymer 1481.
+This places the applicability of the general theory of de-
+fect points in question, on the extreme defect states.
+There are two types of steric-repulsion effects in the
+current model. One is the boundary effects that com-
+pletely forbid typical configurations illustrated in Fig.
+I(b). A long rod (small 112/ L) cannot fit into the inte-
+rior of the annular geometry, which determines the lower
+bound of the phase diagram in Fig. I(c) 144]. The other
+type is due to the Mayer function —w. While v -4-00
+when two rods overlap, illustrate by examples in Fig.
+I(a), the Mayer function allows the configuration but
+with a "soft" energy penalty w 1, appearing in Eq.
+I. As such the Mayer function more appropriately ap-
+proximates a thin, 2D-like layer of rodlike molecules. In
+some extreme states, the continuum cl)c varies drastically
+crossing depletion and non-depletion regions, but is still
+continuous due to the soft penalty.
+Summary.— A distinguishable feature of the Onsager
+model is its simplicity: a term describing entropy and
+a term the excluded-volume interaction. The origi-
+nal model was proposed to describe the bulk isotropic-
+nematic transition. Yet, the extended version to include
+the spatial variation gives the model a new life —
+it
+can be used to describe much more complicated, liquid-
+crystal problems of today's interest.
+Here we demonstrate its capability of describing the
+physics of extreme confinement through nonlocal bound-
+ary conditions,where the conventional Oseen-Frank and
+Landau-de Gennes models fail to capture [32, 33]. A rich
+phase diagram is obtained — not only the states of dif-
+ferent rotational symmetries are separated by phase-tran-
+sition boundaries, but two separate phases of the same
+symmetry are identified. Our free-energy calculation pro-
+vides a theoretical foundation to establish the liquid-crys-
+tal properties under extreme annular confinement, for
+which Monte Carlo configurations were reported recently
+[141.
+The authors wish to acknowledge the financial sup-
+port from the Postdoctoral Science Foundation of China
+(Grant no. 2019M660386), National Natural Science
+Foundation of China (Grant no. 21873009), and Natural
+Sciences and Engineering Research Council of Canada.
+
+****** Result for Image/Page 5 ******
+Ill
+[21
+[4]
+[51
+[6]
+[71
+191
+[11]
+[121
+[131
+[141
+[151
+[161
+[171
+[191
+['21]
+[22]
+L. B. G. Cortes, Y. Gao, R. P. A. Dullens, and D. G. A. L.
+Aarts, J. Phys. Condens. Matter 29, 064003 (2017).
+J. Galanis, D. Harries, D. L. Sackett, W. Losert, and
+R. Nossal, Phys. Rev. Lett. 96, 028002 (2006).
+J. Galanis, R. Nossal, W. Losert, and D. Harries, Phys.
+Rev. Lett, 105, 168001 (2010).
+M. Soares e Silva, J. Alvarado, J. Nguyen, N. Georgoulia,
+B. M. Mulder, and G. H. Koenderink, Soft Matter 7,
+10631 (2011).
+A. H. Lewis, I. Garlea, J. Alvarado, O. J. Dammone,
+P. D. Howell, A. Majumdar, B. M. Mulder, M. P. Let-
+tinga, G. H. Koenderink, and D. G. A. L. Aarts, Soft
+Matter 10, 7865 (2014).
+A, Fernåndez-Nieves, V, Vitelli, A, S, Utada,
+D. R. Link, M. Marquez, D. R. Nelson, and D. A.
+57801 (2007), URL
+Weitz, Phys. Rev. Lett,
+99, 1
+5
+[231
+Qgnysta, A. Nych, V. Nazarenko, I. Mlßeviö,
+U.
+Skarabot, M. Ravnik, S. Zumer, I. Poberaj, and
+D. Babiö, Phys. Rev. Lett. 100, 217803 (2008).
+124] M. Skarabot, M. Ravnik, S. Zumer, U. Tkalec, 1. Poberaj,
+D. Babiö, N. Osterman, and 1. Museviö, Phys. Rev. E 77,
+03 705 (2008).
+[25]
+Ravnik and S. Zumer, Soft Matter 5, 269 (2009).
+M.
+[261 F. R. Hung, Phys. Rev. E 79, 021705 (2009).
+[271
+36, 1201 (2009).
+Ravnik and S. Zumer, Liq. Cryst.
+M.
+[281 s.
+Dhakal, F. J. Solis, and M. Olvera de la
+[29]
+https : // link . aps . org/doi/10. 1103/PhysRevLett .99 . 1578$(10]
+Phys. Rev. E 86, 011709 (2012), URL
+https : // link. aps . org/doi/10. 1103/PhysRevE . 86 .011709.
+A. Dar-
+Koning,
+T.
+Lopez-Leon,
+A, Fernandez-Nieves,
+and V, Vitelli,
+(2016), URL
+Rev. E 94,
+012703
+https : // link. aps . org/doi/10. 1103/PhysRevE . 94.012703
+Napoli
+and
+L.
+Vergori,
+Phys.
+Cruz,
+mon,
+Phys.
+G.
+Rev.
+https :
+T. Lopez-Leon, V. Koning, K. B. S. Devaiah, V. Vitelli,
+and A. Fernandez-Nieves, Nat. Phys. 7, 391 (2011).
+C. Tsakonas, A. J. Davidson, C. V. Brown, and N. J.
+90, 111913 (2007).
+Mottram, Appl. Phys. Lett.
+J. Dzubiella, M. Schmidt, and H. Löwen, Phys. Rev. E
+62, 5081 (2000).
+[10] H. Shin, M. J. Bowick, and X. Xing,
+(2008), URL
+Phys. Rev. Lett,
+101,
+037802
+https : // link . aps . org/doi/10. 1103/PhysRevLett .101.
+M, A, Bates, The Journal of Chemical Physics 128,
+104707 (2008), https://doi.org/10.1063/1.2890724, URL
+https : //doi . org/10 . 1063/1.2890724.
+D. de las Horas, E. Velasco, and L. Mederos, Phys. Rev.
+E 79, 061703 (2009).
+T. Geigenfeind, S. Rosenzweig, M. Schmidt, and D. de Ias
+Heras, J. Chem. Phys. 142, 174701 (2015).
+I. C. Gårlea, P. Mulder, J. Alvarado, O. Dammone, D. G.
+A, L, Aarts, M. P, Lettinga, G, H. Koenderink, and B, M.
+Mulder, Nat. Commun. 7, 12112 (2016).
+M. Robinson, C. Luo, P. E. Farrell, R. Erban, and A. Ma-
+jumdar, Liq. Cryst. 44, 2267 (2017).
+A. Nikoubashman, D. A. Vega, K. Binder, and
+A. Milchev, Phys. Rev. Lett. 118, '217803 (2017), URL
+https : // link . aps . org/doi/10. 1103/PhysRevLett .118.
+T. C. Lubensky and J. Prost, J. Phys. 11 (France) 2, 371
+(1992).
+[181 D. R. Nelson, Nano Letters 2,
+(2002),
+1125
+E
+94,
+(2016),
+020701
+URL
+131]
+132]
+[33
+0370"
+[35
+[36]
+[37]
+[38]
+[391
+[401
+142]
+[43
+//link. aps . org/d0i/10. 1103/PhysRevE . 94.020701.
+A. M. Sonnet and E. G. Virga, Soft Matter 13, 6792
+https://d0i.org/10.1021/n10202096,
+https : //doi . org/10 . 1021/n10202096.
+URL
+69, 135 (2005),
+Huber, M. and Stark, H., Europhys. Lett.
+URL https : //doi . org/10 . 1209/epI/i2004-10316-1.
+[20] 1. Mlßeviö, M. Skarabot, U. Tkalec, M. Ravnik, and
+S. Zumer, Science 313, 954 (2006).
+M. Ravnik, M. Skarabot, S. Zumer, U. Tkalec, 1. Poberaj,
+D. Babiö, N. Osterman, and 1. Mlßeviö, Phys. Rev. Lett.
+99, 247801 (2007),
+M. Skarabot, M. Ravnik, S. Zumer, U. Tkalec, I. Poberaj,
+D. Babiö, N. Osterman, and I. Mlßeviö, Phys.
+Rev. E 76,
+051406 (2007).
+(2017), URL http://dx.doi . org/10.1039/C7SM01216K.
+A. H. Lewis, D. G. A. L. Aarts, P. D. Howell, and A. Ma-
+jumdar, SIAM J. Appl Math 77, 1851 (2017).
+A. H. Lewis, D. G. A. L. Aarts, P. D. Howell, and A. Ma-
+jumdar, Studies App. Math, 138, 438 (2017).
+. Y. Wang, P. Zhang, and J. Z. Y. Chen,
+(2017), URL
+Phys. Rev. E 96,
+042702
+https : //link. aps . org/d0i/10. 1103/PhysRevE . 96 .042702.
+Y. Wang,
+P. Zhang,
+and
+J.
+6756 (2018), URL
+Chen,
+Soft Matter
+14 ,
+http://dx.doi . org/10 . 1039/C8SM01057A.
+P. G. de Gennes and J. Prost, The Physics of Liquid
+Crystals (Oxford University Press, 1993).
+L. Onsager, Ann. N. Y. Acad. sci. 51, 627 (1949).
+R, Pathria, Statistical Mechanics (Butterworth Heine-
+mann, Oxford, UK, 1996).
+R. F. Kayser and H. J. Raveche, Phys. Rev. A 17, 2067
+(1978).
+J. A. Cuesta, C. F. Tejero, and M. Baus, Phys. Rev. A
+39, 6498 (1989).
+217@og. Z. Y. Chen, Phys. Rev. Left. 71, 93 (1993).
+J. Z. Y. Chen, soft Matter 9, 10921 (2013).
+X. Yao, H. Zhang, and J, Z. Y. Chen,
+(2018), URL
+Phys. Rev. E 97,
+052707
+https : // link. aps . org/doi/10. 1103/PhysRevE . 97 .052707
+[44
+See Supplementary Material for a detailed mathmatical
+definition of these quantities.
+[451
+D. R. Nelson, Defects and Geometry in Condensed Matter
+Physics (Cambridge University Press, 2002).
+[461
+M. J. Bowick and L. Giomi, Adv. Phys. 58, 449 (2009).
+1471
+A. M. Turner, V. Vitelli, and D. R. Nelson, Rev. Mod.
+Phys. 82, 1301 (2010).
+[48
+Q, Liang, Y, Jiang,
+and J, Z. Y, Chen,
+(2019), URL
+Phys. Rev. E 100,
+032502
+https : //link. aps . org/d0i/10. 1103/PhysRevE . 100 .032502.
